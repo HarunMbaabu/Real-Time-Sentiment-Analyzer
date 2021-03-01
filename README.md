@@ -73,17 +73,19 @@ param callable feature_extractor: Function that returns a dictionary of features
 
 ### **Implementation**
 
-Import the necessary libraries (lines 1–2).
-Initialize the speech recognizer engine (line 4).
-Listen to the audio using the recognizer engine (line 10), and the recognizer will stop listening if there is no audio for 2 seconds (timeout=2).
-Convert the audio input into text format using a TextBlob function recognizer_google (line 10).
-Predict the sentiment of the input text using TextBlob sentiment classifier (line 13).
-Run the loop till you say the term “Exit”, to exit the loop.
+- Import the necessary libraries (lines 1–2).
+
+- Initialize the speech recognizer engine (line 4).
+
+- Listen to the audio using the recognizer engine (line 10), and the recognizer will stop listening if there is no audio for 2 seconds (timeout=2).
+
+- Convert the audio input into text format using a TextBlob function recognizer_google (line 10).
+
+- Predict the sentiment of the input text using TextBlob sentiment classifier (line 13).
+
+- Run the loop till you say the term “Exit”, to exit the loop.
 
 
-
-
-  
 ### **Source Code.**  
 
 ~~~python 
