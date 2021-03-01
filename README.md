@@ -66,3 +66,13 @@ while True:
 ~~~
  
  
+
+#### **Remember**
+
+You can also implement the model in real-time using the above-discussed custom function, that will listen to your speech, and predict the sentiment.
+
+In this experiment, i have used pre-trained sentiment classifier model from the TextBlob library. 
+
+There are several other techniques to develop a sentiment analysis model.
+
+[5 Ways to develop a Sentiment Analyser in Machine Learning By Satyam Kumar](https://towardsdatascience.com/5-ways-to-develop-a-sentiment-analyser-in-machine-learning-e8352872118)
