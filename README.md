@@ -19,8 +19,8 @@ In this project,  i developed a model that can listen to speech and convert it t
 1). Recognize the speech and convert it to text format using a speech recognizer engine.
 
 
-3). Predict the sentiment of text using TextBlob in real-time.
+2). Predict the sentiment of text using TextBlob in real-time.
 
 
-5). Repeat steps 1 and 2 until the conversation ends. 
+3). Repeat steps 1 and 2 until the conversation ends. 
 
