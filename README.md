@@ -1,4 +1,4 @@
-#  **Real Time Sentiment Analyzer**
+#  **Real Time Sentiment Analyzer.**
 
 Sentiment Analysis is a Natural Language Processing technique to predict the sentiment or opinion of a given text.
 It involves the use of NLP, text analysis, computer linguistic to identify or extract subjective information. 
@@ -12,7 +12,7 @@ In this project my main focus is on developing a real-time sentiment analyzer, t
 
 
 
-### **Idea**
+### **Idea.**
 In this project,  i developed a model that can listen to speech and convert it to text data, and use the **TextBlob** library to analyze the sentiment of the text in real-time.
 
 
@@ -24,3 +24,5 @@ In this project,  i developed a model that can listen to speech and convert it t
 
 3). Repeat steps 1 and 2 until the conversation ends. 
 
+ 
+ ### **Installation.**
