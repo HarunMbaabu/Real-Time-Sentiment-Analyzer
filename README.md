@@ -25,4 +25,21 @@ In this project,  i developed a model that can listen to speech and convert it t
 3). Repeat steps 1 and 2 until the conversation ends. 
 
  
- ### **Installation.**
+ ### **Installation.** 
+ 
+ 
+ ##### **SpeechRecognition.**
+ 
+ ~~~python
+ pip install SpeechRecognition 
+ ~~~ 
+ 
+ ##### **pyforest**
+ 
+ 
+ ~~~python
+ pip install --upgrade pyforest
+ ~~~
+ 
+ 
+ 
