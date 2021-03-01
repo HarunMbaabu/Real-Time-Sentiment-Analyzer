@@ -40,7 +40,49 @@ In this project,  i developed a model that can listen to speech and convert it t
  ~~~python
  pip install --upgrade pyforest
  ~~~
-  
+
+
+### **Sentiment Analyzer using TextBlob**
+
+TextBlob is an open-sourced Python library built upon NLTK and provides easy to use API’s for sentiment analysis, translation, part-of-speech tagging, noun phrase extraction, classification, etc. It is used to process textual data and allows which algorithm to use of its simple API.
+
+
+For sentiment analysis TextBlob provides two algorithms under the hood for implementation:
+
+
+**PatternAnalyzer:** (Default) Sentiment analyzer algorithm that uses the same implementation as the pattern library. It returns results as a named tuple of the form:
+~~~python
+Sentiment(polarity, subjectivity, [assessments]) 
+
+~~~
+
+***
+where [assessments] is a list of the assessed tokens and their polarity and subjectivity scores.
+***
+
+**NaiveBayesAnalyzer:** Naive Bayes analyzer is an NLTK classifier that is trained on a dataset of movie reviews.
+Returns results as a named tuple of the form:
+
+~~~python
+Sentiment(classification, p_pos, p_neg)
+~~~
+
+***
+param callable feature_extractor: Function that returns a dictionary of features, given a list of words.
+***
+
+### **Implementation**
+
+Import the necessary libraries (lines 1–2).
+Initialize the speech recognizer engine (line 4).
+Listen to the audio using the recognizer engine (line 10), and the recognizer will stop listening if there is no audio for 2 seconds (timeout=2).
+Convert the audio input into text format using a TextBlob function recognizer_google (line 10).
+Predict the sentiment of the input text using TextBlob sentiment classifier (line 13).
+Run the loop till you say the term “Exit”, to exit the loop.
+
+
+
+
   
 ### **Source Code.**  
 
